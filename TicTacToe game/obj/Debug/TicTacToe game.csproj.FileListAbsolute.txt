@@ -1,0 +1,10 @@
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\bin\Debug\TicTacToe game.exe.config
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\bin\Debug\TicTacToe game.exe
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\bin\Debug\TicTacToe game.pdb
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe game.csprojAssemblyReference.cache
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe_game.Form1.resources
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe_game.Properties.Resources.resources
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe game.csproj.GenerateResource.cache
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe game.csproj.CoreCompileInputs.cache
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe game.exe
+C:\Users\Mac\source\repos\TicTacToe game\TicTacToe game\obj\Debug\TicTacToe game.pdb
