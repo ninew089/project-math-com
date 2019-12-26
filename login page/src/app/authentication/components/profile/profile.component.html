@@ -1,0 +1,65 @@
+<app-auth-content>
+
+    <div class="app-title">
+        <div>
+          <h1><i class="fa fa-user"></i> information profile</h1>
+          <p> Life's a journey not a race</p>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+          <li class="breadcrumb-item"><a href="#">Blank Page</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tile">
+            <div class="tile-body">
+              <h1 style=" font-family: 'Roboto', sans-serif;"><i class=" fa fa-bars" ></i> about me  </h1>
+              
+               
+
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        
+
+                    <div class="card" style="width: 18rem;">
+                      <img *ngIf="UserLogin.image" class="card-img-top" [src]="UserLogin.image" alt="User Image"   >
+                      <img *ngIf="!UserLogin.image"  class="card-img-top" src="assets/images/no-image-profile.png" alt="User Image"  >
+                      <div class="card-body" style=" font-family: 'Roboto', sans-serif;">
+                          <h3 style ="text-align: center;" >name : {{ UserLogin.firstname}}  {{ UserLogin.lastname}}</h3>
+                          <h5><i class="fa fa-birthday-cake"></i>   birthday: {{ UserLogin.birthday}}  </h5>
+                          <h5><i class="fa fa-user-o"></i>   position: {{ UserLogin.possition}}  </h5>
+                          <h5><i class="fa fa-phone"></i>   tel : {{ UserLogin.tel}}  </h5>
+                          <h5><i class="fa fa-envelope"></i>   email : {{ UserLogin.email}}  </h5>
+                          <h5><i class="fa fa-address-card-o"></i>   adress : {{ UserLogin.address}}  </h5>
+                      
+                        <p class="card-text">
+                         </p>
+                    
+                    </div>
+                  </div>
+                      </div>
+                      <div class="col-6">
+                        <h3>Hello</h3>
+                        <br>
+                        <hr>
+                        <br>
+                        <h5 style=" font-family: 'Roboto', sans-serif;">
+                            First things first, why boycott big chocolate companies on Halloween? Just so you know, last year I did give out chocolate, but this year I want to do thing differently. Why? Because as I’ve dived deeper into ethical living I’ve found that a big culprit of slave labor, including child slave labor, is chocolate companies.
+
+The majority of coco is exported from West Africa. These coco farmers live in poverty with an estimated 1.8 million children working on farms to meet the western demand for cheap chocolate. This is very well-researched article talks about the dark side of chocolate.
+
+Now that I know the truth about this chocolate, I don’t feel right about handing it out, but I also want to be involved in Halloween. In fact, I love the community aspect of trick-or-treating and the last thing I want to do is turn off my lights and go to bed early that night. So here are a few ethical alternatives to handing out chocolate. P.S. I know that these are not perfect solutions, but I do think that they are better, more mindful solutions! One step at a time 🙂
+                        </h5>
+                    
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+</app-auth-content>
